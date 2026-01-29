@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templates>
     <!-- Inherits X2ManyField view in Odoo to add a search input field.-->
-    <t t-name="One2ManySearchTemplate" t-inherit="web.X2ManyField"
+    <t t-name="one2many_search_widget.one2manysearch" t-inherit="web.X2ManyField"
        t-inherit-mode="primary" owl="1">
         <t t-if="displayControlPanelButtons" position="replace">
             <div>
