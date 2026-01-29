@@ -14,7 +14,7 @@ export class One2ManySearch extends X2ManyField {
     });
 }
 }
-One2ManySearch.template = "One2ManySearchTemplate";
+One2ManySearch.template = "one2many_search_widget.one2manysearch";
 export const one2ManySearch = {
     ...x2ManyField,
     component: One2ManySearch,
